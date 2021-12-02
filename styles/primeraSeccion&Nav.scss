@@ -1,0 +1,170 @@
+nav {
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+}
+#containerNav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#buttonNav {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+  height: 35px;
+  width: 129;
+}
+.imgNav {
+  margin: 0 15px 0 15px;
+}
+#optionNav {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  #containerNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+  #optionNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+  }
+  #LogoNav {
+    position: absolute;
+    top: 20px;
+    left: 0;
+  }
+}
+
+main {
+  margin: 0 10px 0 10px;
+}
+#containerPSectionTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 140px;
+  margin-top: 40px;
+}
+#buttonPSectionB {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+  height: 35px;
+  width: 129;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 10px;
+}
+#buttonPSectionW {
+  background-color: white;
+  border-radius: 10px;
+  border: black solid 1px;
+  height: 35px;
+  margin-left: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#titleOneIP {
+  font-size: 50px;
+}
+#parrafoOnePS {
+  color: gray;
+}
+#containerRSOne {
+  display: none;
+}
+#pianoBlakcPS {
+  margin-top: 30px;
+  width: 372px;
+  height: 310px;
+}
+
+@media screen and (min-width: 768px) {
+  #titleOneIP {
+    font-size: 80px;
+    letter-spacing: 8px;
+  }
+  #parrafoOnePS {
+    font-size: 20px;
+  }
+  #containerPSectionTitle {
+    height: 220px;
+  }
+  #containerRSOne {
+    display: flex;
+  }
+  #pianoBlakcPS {
+    margin-top: 30px;
+    width: 789px;
+    height: 654px;
+    margin-left: 250px;
+  }
+  #containerPSPandR {
+    display: flex;
+  }
+  #containerRSOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 150px;
+    margin-bottom: 95px;
+  }
+  .logoRSSOne {
+    margin: 15px;
+  }
+}
+
+#contenTitleV {
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 0;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.4)
+  );
+}
+#videoPSOne {
+  width: 380px;
+  height: 309px;
+  object-fit: cover;
+  right: 0;
+  bottom: 690px;
+  position: absolute;
+  z-index: -3;
+}
+
+iframe {
+  width: 375px;
+  height: 830px;
+  border-style: none;
+}
+
+#titleVideoS {
+  font-size: 30px;
+  text-align: center;
+}
+#pianoImagV {
+  width: 288px;
+  height: 263px;
+  margin-left: 50px;
+}

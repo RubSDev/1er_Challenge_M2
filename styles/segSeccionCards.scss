@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+}
+/* Styles section Cards Pianos Rub */
+#sectionCardsP {
+  width: 100%;
+  height: 1600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  div {
+    h2 {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+}
+.containerCard {
+  border-radius: 10px;
+  width: 280px;
+  height: 380px;
+  box-shadow: 0px 0px 45px 25px #dddddd;
+  padding: 20px;
+}
+
+.imgeP {
+  width: 245px;
+  height: 216px;
+}
+#imgezTP {
+  width: 245px;
+  height: 216px;
+}
+#containerimgp {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#dotsCard {
+  width: 100%;
+}
+#nameP {
+  padding-top: 15px;
+  font-size: 25px;
+}
+#containerDataP {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+#containerBC {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+#markertCar {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  padding: 9px;
+  border-radius: 7px;
+}
+#buttonMP {
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 7px;
+}
+#buttonVM {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  width: 150px;
+  height: 45px;
+}
+#containerBVM {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  #sectionCardsP {
+    width: 100%;
+    height: 660px;
+    margin: 50px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  #containerTCardsS {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  #containerBVM {
+    width: 100%;
+  }
+  .imgeP {
+    width: 245px;
+    height: 216px;
+    position: absolute;
+  }
+  .containerCard {
+    border-radius: 10px;
+    width: 280px;
+    height: 280px;
+    box-shadow: 0px 0px 45px 25px #dddddd;
+    padding: 20px;
+  }
+  #containerimgp {
+    position: absolute;
+  }
+  #containerMQ {
+    padding-top: 110px;
+  }
+  #imgezTP {
+    width: 245px;
+    height: 216px;
+    position: absolute;
+  }
+}
+
+iframe {
+  width: 100%;
+  height: 1600px;
+  border-style: none;
+}

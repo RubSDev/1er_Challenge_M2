@@ -1,0 +1,108 @@
+/* Styles section footer Rub */
+footer {
+  width: 100%;
+  height: 830px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#5c5c5c));
+  background: linear-gradient(#ffffff, #5c5c5c);
+}
+
+#containerOneFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#imgeLFP {
+  width: 133px;
+  height: 116px;
+  margin: 40px 0 20px 0;
+}
+
+.imgeSMF {
+  width: 32px;
+  height: 32px;
+  margin: 7px;
+}
+
+#containerPPF {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 40px 0 04px 0;
+}
+
+#containerPPF2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 40px 0 04px 0;
+}
+
+#parrafoOneF {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+#parrafoTwooF {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#parrafoTreeF {
+  margin-top: 50px;
+}
+
+#containerIFFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#containerIFFooter {
+  width: 100%;
+  height: 32px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+
+iframe {
+  width: 100%;
+  height: 830px;
+  border-style: none;
+}
+/*# sourceMappingURL=footer.css.map */

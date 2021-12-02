@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+}
+
+/* Styles section Cards Pianos Rub */
+#sectionCardsP {
+  width: 100%;
+  height: 1600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#sectionCardsP div h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.containerCard {
+  border-radius: 10px;
+  width: 280px;
+  height: 380px;
+  -webkit-box-shadow: 0px 0px 45px 25px #dddddd;
+          box-shadow: 0px 0px 45px 25px #dddddd;
+  padding: 20px;
+}
+
+.imgeP {
+  width: 245px;
+  height: 216px;
+}
+
+#imgezTP {
+  width: 245px;
+  height: 216px;
+}
+
+#containerimgp {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#dotsCard {
+  width: 100%;
+}
+
+#nameP {
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+#containerDataP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+#containerBC {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10px;
+}
+
+#markertCar {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  padding: 9px;
+  border-radius: 7px;
+}
+
+#buttonMP {
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 7px;
+}
+
+#buttonVM {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  width: 150px;
+  height: 45px;
+}
+
+#containerBVM {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  #sectionCardsP {
+    width: 100%;
+    height: 660px;
+    margin: 50px 0 50px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #containerTCardsS {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  #containerBVM {
+    width: 100%;
+  }
+  .imgeP {
+    width: 245px;
+    height: 216px;
+    position: absolute;
+  }
+  .containerCard {
+    border-radius: 10px;
+    width: 280px;
+    height: 280px;
+    -webkit-box-shadow: 0px 0px 45px 25px #dddddd;
+            box-shadow: 0px 0px 45px 25px #dddddd;
+    padding: 20px;
+  }
+  #containerimgp {
+    position: absolute;
+  }
+  #containerMQ {
+    padding-top: 110px;
+  }
+  #imgezTP {
+    width: 245px;
+    height: 216px;
+    position: absolute;
+  }
+}
+
+/* Styles section footer Rub */
+footer {
+  width: 100%;
+  height: 830px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#5c5c5c));
+  background: linear-gradient(#ffffff, #5c5c5c);
+}
+
+#containerOneFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#imgeLFP {
+  width: 133px;
+  height: 116px;
+  margin: 40px 0 20px 0;
+}
+
+.imgeSMF {
+  width: 32px;
+  height: 32px;
+  margin: 7px;
+}
+
+#containerPPF {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 40px 0 04px 0;
+}
+
+#containerPPF2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 40px 0 04px 0;
+}
+
+#parrafoOneF {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+#parrafoTwooF {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#parrafoTreeF {
+  margin-top: 50px;
+}
+
+#containerIFFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#containerIFFooter {
+  width: 100%;
+  height: 32px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+/*# sourceMappingURL=input.css.map */
