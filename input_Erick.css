@@ -1,0 +1,86 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+}
+
+#formContainer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.918)), to(rgba(255, 255, 255, 0.4))), url("images_Erick/background_form.png");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.918), rgba(255, 255, 255, 0.4)), url("images_Erick/background_form.png");
+  background-size: 1200px;
+  background-position: center center;
+  /*Esta hace que la imagen se centre a la perfección*/
+  height: 870px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#formTittle {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  font-size: 24px;
+}
+
+#formParagraph {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  width: 310px;
+}
+
+input {
+  background-color: black;
+  width: auto;
+  opacity: 50%;
+  border-radius: 4px;
+}
+
+.input-algo {
+  width: 100%;
+  height: 36px;
+}
+
+#formTellMeMore {
+  width: 100%;
+  height: 148px;
+}
+
+#formSendButton {
+  background-color: black;
+  color: white;
+  width: 288px;
+  height: 32px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  #formTellMeMore {
+    width: 464px;
+    height: 192px;
+  }
+  #joinContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .form-desktop {
+    width: 46%;
+  }
+  #formSendButton {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=input_Erick.css.map */
