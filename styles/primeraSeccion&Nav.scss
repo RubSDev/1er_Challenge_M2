@@ -46,7 +46,7 @@ nav {
     left: 0;
   }
 }
-
+/* Section1 "Rubs" */
 main {
   margin: 0 10px 0 10px;
 }
@@ -64,22 +64,21 @@ main {
   border-radius: 10px;
   border: none;
   height: 35px;
-  width: 129;
+  width: 125;
   padding-left: 50px;
   padding-right: 50px;
-  margin-right: 10px;
 }
 #buttonPSectionW {
   background-color: white;
   border-radius: 10px;
   border: black solid 1px;
   height: 35px;
-  margin-left: 10px;
+
   padding-left: 40px;
   padding-right: 40px;
 }
 #titleOneIP {
-  font-size: 50px;
+  font-size: 30px;
 }
 #parrafoOnePS {
   color: gray;
@@ -126,6 +125,16 @@ main {
   .logoRSSOne {
     margin: 15px;
   }
+  #buttonPSectionB {
+    padding-left: 50px;
+    margin-right: 10px;
+  }
+  #buttonPSectionW {
+    margin-left: 10px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 #contenTitleV {
@@ -153,18 +162,104 @@ main {
   z-index: -3;
 }
 
-iframe {
-  width: 375px;
-  height: 830px;
-  border-style: none;
-}
-
 #titleVideoS {
   font-size: 30px;
   text-align: center;
 }
 #pianoImagV {
   width: 288px;
-  height: 263px;
+  height: 238px;
   margin-left: 50px;
+}
+
+#containerCardSOne {
+  background-color: gray;
+  width: 388px;
+  height: 497px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.continerBPS {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+#titlecardV {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 15px;
+}
+#containerStars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 15px 0 10px 0;
+}
+
+#titlecardVDos {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#texVCD {
+  text-align: center;
+  font-size: 18px;
+  height: 180px;
+  width: 350px;
+  margin-top: 15px;
+}
+#containerDataPV {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 35px;
+}
+@media screen and (min-width: 768px) {
+  #containerCardSOne {
+    background-color: rgba(94, 94, 94, 0);
+  }
+  #titleVideoS {
+    font-size: 42px;
+    text-align: center;
+    width: 440px;
+  }
+  #contenTitleV {
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    z-index: 0;
+    top: 400px;
+  }
+  #videoPSOne {
+    min-width: 100%;
+    min-height: 850px;
+    position: absolute;
+    top: 950px;
+  }
+  #pianoImagV {
+    position: absolute;
+    left: 630px;
+    width: 500px;
+    height: 600px;
+    top: 1200px;
+  }
+  #containerCardSOne {
+    margin-top: 150px;
+  }
+  #titleVideoS {
+    margin-left: 400px;
+  }
+}
+iframe {
+  width: 375px;
+  height: 130px;
+  border-style: none;
 }
